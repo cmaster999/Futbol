@@ -12,6 +12,20 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
+
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas en lugar de tres */
+  }
+}
+
+/* Ajustes para pantallas pequeñas (móviles) */
+@media (max-width: 480px) {
+  .container {
+    grid-template-columns: 1fr; /* Una columna en lugar de tres */
+  }
 }
 
 .channel {
