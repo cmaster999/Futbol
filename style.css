@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #121212;
   margin: 0;
   padding: 0;
 }
@@ -41,19 +41,15 @@ body {
 
 .channel img {
   width: auto;
-  height: 50px;
+  height: 60px;
   border-radius: 5px;
   margin-bottom: 10px;  /* Espacio entre la imagen y el texto */
 }
 
 .options {
-  width: 100%;  /* Asegura que las opciones ocupen todo el ancho del contenedor */
   text-align: left;  /* Alinea el texto a la izquierda */
-}
-
-ul {
   list-style: none;  /* Quita los puntos de la lista */
-  margin: 0;
+  padding: 0;
 }
 
 .options li {
